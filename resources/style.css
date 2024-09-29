@@ -68,3 +68,30 @@ nav {
   width: 300px;
   height: 200px;
 }
+
+.locations {
+  background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 500px;
+  align-content: center;
+  flex-flow: row wrap;
+}
+
+.location-info {
+  display: flex;
+  align-items: center;
+}
+
+.loc {
+  height: 300px;
+  align-content: center;
+  justify-content: space-around;
+  margin-right: 40px;
+  line-height: 1.2;
+}
+
+.loc p {
+  line-height: 1.6;
+}
