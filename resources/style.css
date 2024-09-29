@@ -5,7 +5,7 @@ html {
   opacity: 0.9;
   text-align: center;
   color: seashell;
-  margin: 0 auto;
+  padding: 0 20px;
 }
 
 * {
@@ -54,12 +54,12 @@ nav {
   width: 1000px;
   line-height: 2;
   padding: 52px;
+  display: inline;
 }
 .images1,
 .images2 {
   display: flex;
   flex-flow: row wrap;
-  justify-items: center;
   align-items: center;
   padding: 8px;
 }
@@ -80,14 +80,17 @@ nav {
   background-position: center;
   background-size: cover;
   height: 500px;
+  display: inline-block;
+  justify-content: center;
   align-content: center;
-  flex-flow: row wrap;
+  width: 100%;
 }
 
 .location-info {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-flow: row wrap;
 }
 
 .loc {
@@ -97,7 +100,19 @@ nav {
   margin-top: 15px;
 }
 
-.loc li {
+.loc li,
+footer li {
   list-style: none;
   line-height: 2.5;
+}
+
+.footer {
+  height: 200px;
+}
+
+footer li {
+  margin-right: 30px;
+}
+footer h6 {
+  text-align: left;
 }
