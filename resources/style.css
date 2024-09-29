@@ -1,0 +1,70 @@
+* {
+  font-family: Helvetica;
+  font-size: 22px;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+  color: seashell;
+  margin: 0 auto;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 1px solid seashell;
+  height: 69px;
+}
+
+.logo img {
+  height: 50px;
+}
+
+.nav-links a {
+  text-decoration: underline;
+  padding: 0 8px;
+  cursor: pointer;
+}
+
+.hero {
+  background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 700px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1.6;
+}
+
+.mission {
+  padding: 8px;
+  width: 1200px;
+}
+.mission h4 {
+  padding: 12px;
+}
+
+.tea-selection {
+  width: 1000px;
+  line-height: 2;
+  padding: 48px;
+}
+.images1,
+.images2 {
+  display: flex;
+  flex-flow: row wrap;
+  justify-items: center;
+  align-items: center;
+  padding: 8px;
+}
+
+.images2 {
+  justify-content: space-around;
+}
+
+.card img {
+  width: 300px;
+  height: 200px;
+}
